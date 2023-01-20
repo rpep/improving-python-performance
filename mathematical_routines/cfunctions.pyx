@@ -1,4 +1,5 @@
 import cython
+cimport numpy as np
 
 cdef extern from "functions.h":
     void mathematical_routine(double* input, double* output, int N)

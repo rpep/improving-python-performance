@@ -5,7 +5,7 @@ from timeit import default_timer
 
 Nrepeats = 100
 Nmin = 4
-Nmax = 5
+Nmax = 9
 
 Ns = list(range(Nmin, Nmax))
 
